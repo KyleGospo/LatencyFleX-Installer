@@ -87,7 +87,6 @@ function installToProton {
 
 
 # Handling parameters
-echo -e "Make sure you have LatencyFlex installed on the system before using, as this installer copies files from the system install.\n"
 if [[ "$1" == "--game" ]]; then 
     installToGame "$2" "$3"
 elif [[ "$1" == "--proton" ]]; then
