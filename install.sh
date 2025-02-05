@@ -2,9 +2,9 @@
 
 
 # LatencyFlex libraries
-latencyflex_wine_dll="/usr/lib/wine/x86_64-windows/latencyflex_wine.dll"
-latencyflex_layer_dll="/usr/lib/wine/x86_64-windows/latencyflex_layer.dll"
-latencyflex_layer_so="/usr/lib/wine/x86_64-unix/latencyflex_layer.so"
+latencyflex_wine_dll="/usr/lib/latencyflex/x86_64-windows/latencyflex_wine.dll"
+latencyflex_layer_dll="/usr/lib/latencyflex/x86_64-windows/latencyflex_layer.dll"
+latencyflex_layer_so="/usr/lib/latencyflex/x86_64-unix/latencyflex_layer.so"
 
 # This will be prompted for at runtime
 DEFAULT_STEAM_DIRECTORY="$HOME/.local/share/Steam"
