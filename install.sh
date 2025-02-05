@@ -46,7 +46,7 @@ function linkDLLs {
 
 # copies dxvk.conf to specified location
 function copyDXVKConf {
-    cp "dxvk.conf" "$1"
+    cp "/usr/share/latencyflex/dxvk.conf" "$1"
 }
 
 
